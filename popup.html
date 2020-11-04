@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Majeso Launcher</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <style>
+            html, body{
+                font-family: 'Open Sans', 'sans-serif';
+                font-size: 14px;
+                margin: 0;
+                min-height: 180px;
+                padding: 0;
+                width: 384px;
+                background-color: antiquewhite;
+                border-radius: 10px;
+            }
+            h1{
+                font-family: 'Menlo', monospace;
+                font-size: 22px;
+                font-weight: 600;
+                margin: 0;
+                color: #613334;
+            }
+            a:link, a:visited{
+                color: black;
+                outline: 0;
+                text-decoration: none;
+            }
+            img{
+                width:30px;
+            }
+            .modal-header{
+                align-items: center;
+                background-color: rgb(159, 177, 211);
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                box-shadow:0px 8px 20px 0px rgba(75, 75, 75, 0.9);
+            }
+            .modal-content{
+                padding: 0 22px;
+            }
+            .modal-icons{
+                border-top: 0.5px solid #b1a4a4;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                height:50px;
+                width:100%;
+            }
+            .logo{
+                padding:16px;
+            }
+            .logo-icon{
+                vertical-align: text-bottom;
+                margin-right:12px;
+            }
+            .version{
+                color: #444;
+                font-size: 18px;
+            }
+            .flex-container{
+                display: flex;
+                justify-content: space-around;
+                padding:10px 30px;
+            }
+            .flex{
+                opacity: 1;
+                transition: opacity 0.3s ease-in-out;
+                width:120px;
+            }
+            .flex:hover{
+                opacity: 0.5;
+                transform: scale(1.15);
+            }
+            .flex .fa{
+               font-size: 40px;
+               color:#f0595d;
+            }
+
+        </style>
+    
+    </head>
+    <body>
+       <div class="modal-header">
+           <h1 class="logo">
+               <img src="images/majeso.png" alt="Majeso Launcher" class="logo-icon">Majeso Launcher <span class="version">(1.0.0)</span>
+           </h1>
+       </div>
+    <div class="modal-content">
+        <p>
+           Get in touch with me  
+        </p>
+    </div>
+    <div class="modal-icons">
+        <div class="flex-container">
+           
+            <div class="flex">
+               <a href="https://github.com/gomathishankar37" target="_blank">
+                    <i class="fa fa-github"></i>
+            </a>
+           </div>
+           
+           <div class="flex">
+            <a href="https://www.linkedin.com/in/gomathishankar37/" target="_blank">
+                 <i class="fa fa-linkedin"></i>
+            </a>
+            </div>
+
+            <div class="flex">
+                <a href="https://www.hackerrank.com/gomathishankar37" target="_blank">
+                     <i class="fa fa-code"></i>
+             </a>
+            </div>
+
+            <div class="flex">
+                <a href="https://dribbble.com/gomathishankar37" target="_blank">
+                     <i class="fa fa-dribbble"></i>
+             </a>
+            </div>
+
+           
+        </div>
+    </div>
+    </body>
+</html>
